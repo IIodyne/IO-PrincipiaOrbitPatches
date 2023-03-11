@@ -1,5 +1,5 @@
-# Principia_PlanetPatches
-Contains patches to make various planet pack work with Principia.
+# IO-PrincipiaPlanetPatches
+Contains patches to make various planet packs work with Principia.
 Currently contains:
 
   **Joolean System** - Fixes ejection of Vall and Bop out of Joolean system; increases SMA of Vall, Tylo, and Bop, and makes Bop orbit retrograde. Values copied directly from Principia's patch.
