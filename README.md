@@ -1,5 +1,5 @@
 # IO-PrincipiaOrbitPatches
-Contains patches to make various planet packs work with Principia.
+Contains patches to make various planet pack orbits stable with Principia.
 Compatible with IO-AlteredOrbits.
 
 Currently contains:
