@@ -10,3 +10,9 @@ Currently contains:
   **Outer Planets Mod** - Fixes disturbances of inner Sarnus system; increases Ovok's SMA to outer system and eccentricity, and makes Ovok orbit retrograde. Values derived from the work of EnderDragneel and ryansennis.
     
   **Minor Planets Expansion** - Fixes unstable orbit of Kal; increases Kal's SMA and eccentricity to more closely resemble Namaka. Values derived from https://bit.ly/3jeKkab, with the ratio of Ki'Ki's to Hi'iaka's SMA as reference.
+
+  **Neidon Plus** - 
+  
+  **Extrasolar** - 
+  
+  **Kcalbeloh System** - 
