@@ -4,7 +4,7 @@ Compatible with IO-AlteredOrbits.
 
 Currently contains:
 
-  **Stock Joolean System** - Fixes ejection of Vall and Bop out of Joolean system; increases SMA of Vall, Tylo, and Bop, and makes Bop orbit retrograde. ~~Values copied directly from Principia's patch.~~ Values differ from Principia's patch for better stability. New orbital resonances of 1 : e : e<sup>2</sup> :sqrt(5)\*e<sup>2</sup> : 2\*sqrt(5)\*e<sup>2</sup>.
+  **Stock Joolean System** - Fixes ejection of Vall and Bop out of Joolean system; increases SMA of Vall, Tylo, and Bop, and makes Bop orbit retrograde. ~~Values copied directly from Principia's patch.~~ Values differ from Principia's patch for better stability. New orbital resonances of 1 : e : e<sup>2</sup> : sqrt(5)\*e<sup>2</sup> : 2\*sqrt(5)\*e<sup>2</sup>.
     ***Necessary if installing a planet pack.***
     
   **Outer Planets Mod** - Fixes disturbances of inner Sarnus system; increases Ovok's SMA to outer system and eccentricity, and makes Ovok orbit retrograde. Values derived from the work of EnderDragneel and ryansennis.
