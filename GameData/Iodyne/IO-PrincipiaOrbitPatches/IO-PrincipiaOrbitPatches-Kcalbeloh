@@ -1,0 +1,243 @@
+@Kopernicus:AFTER[KcalbelohSystem]:NEEDS[Principia]
+{
+	@Body[Kcalbeloh]
+	{
+		-Orbit {}
+		Orbit
+		{
+			referenceBody = Sun
+           	color = 0,0,0,0
+			nodeColor = 1,1,1,1
+           	inclination = 30
+           	eccentricity = 0.001
+           	semiMajorAxis = 2.718E15
+           	longitudeOfAscendingNode = 135
+           	argumentOfPeriapsis = 90
+           	meanAnomalyAtEpoch = 0
+           	epoch = 180
+			iconTexture = KcalbelohSystem/PluginData/Decals/blackhole.png
+		}
+		@Properties
+        	{
+         		rotates = True
+			rotationPeriod = 80000
+        	}
+	}
+	@Body[Onrefni]
+	{
+		@Orbit
+		{
+			%semiMajorAxis = 2.8462853E10
+		}
+	}
+	@Body[Rouqea]
+	{
+		@Orbit
+		{
+			%semiMajorAxis = 4.2436E10
+		}
+	}
+	@Body[Iomena]
+	{
+		@Orbit
+		{
+			%semiMajorAxis = 7.165E10
+		}
+	}
+	@Body[Uleg]
+	{
+		@Orbit
+		{
+			%semiMajorAxis = 1.1593E11
+		}
+	}
+	@Body[Maelg]
+	{
+		-Orbit {}
+		Orbit
+		{
+			referenceBody = Kcalbeloh
+			inclination = -2
+			eccentricity = 0.02
+			semiMajorAxis = 4.6125E11
+			longitudeOfAscendingNode = 0
+			argumentOfPeriapsis = 0
+			meanAnomalyAtEpoch = 4
+			epoch = 0
+			color = 0.65,0.3,0,1
+			iconTexture = KcalbelohSystem/PluginData/Decals/star.png
+		}
+	}
+	@Body[Sunorc]
+	{
+		@Orbit
+		{
+			%semiMajorAxis = 1.414E+12
+		}
+	}
+	@Body[Tot]
+	{
+		@Orbit
+		{
+			%semiMajorAxis = 5940000
+		}
+	}
+	@Body[Simetra]
+	{
+		-Orbit {}
+		Orbit
+		{
+			referenceBody = Sunorc
+			inclination = 1.74
+			eccentricity = 0.05
+			semiMajorAxis = 2.1E10
+			longitudeOfAscendingNode = 236
+			argumentOfPeriapsis = 255
+			meanAnomalyAtEpoch = 0.3
+			epoch = 0
+			color = 0.4431,0.7294,0.7490,0.5
+			iconTexture = KcalbelohSystem/PluginData/Decals/gas.png
+		}
+		@Properties
+		{
+			%tidallyLocked = False
+			%rotationPeriod = 165890
+		}
+	}
+	@Body[Noira]
+	{
+		@Orbit
+		{
+			%referenceBody = Simetra
+		}
+		@Properties
+		{
+			%rotationPeriod = 11715.0655030512
+		}
+	}
+	@Body[Simeht]
+	{
+		-Orbit {}
+		Orbit
+		{
+			referenceBody = Simetra
+			inclination = -4
+			eccentricity = 0
+			semiMajorAxis = 5.48450E7
+			longitudeOfAscendingNode = 0
+			argumentOfPeriapsis = 180
+			meanAnomalyAtEpoch = 0
+			epoch = 0
+			color = 0.69,0.92,0.96,0.5
+			iconTexture = KcalbelohSystem/PluginData/Decals/gas.png
+		}
+		@Properties
+		{
+			%tidallyLocked = False
+			%rotationPeriod = 165890
+		}
+	}
+	@Body[Norihc]
+	{
+		@Orbit
+		{
+			 %referenceBody = Noyreg
+			 %eccentricity = 0
+			 %semiMajorAxis = 1.1E7 
+			%inclination = 0.4
+            	%longitudeOfAscendingNode = 156
+			%argumentOfPeriapsis = 42
+			 %meanAnomalyAtEpoch = 0
+		}
+		@Properties
+		{
+			%tidallyLocked = False
+			%rotationPeriod = 200398
+		}
+	}
+	@Body[Noi]
+	{
+		-Orbit {}
+		Orbit
+		{
+			referenceBody = Sunorc
+			inclination = 1.74
+			eccentricity = 0.05
+			semiMajorAxis = 2.1E10
+			longitudeOfAscendingNode = 236
+			argumentOfPeriapsis = 255
+			meanAnomalyAtEpochD = 77.1887339
+			epoch = 0
+			color = 0.4,0.4,0.42,0.5
+			iconTexture = KcalbelohSystem/PluginData/Decals/asteroid.png
+		}
+	}
+	@Body[Noyreg]
+	{
+		@Orbit
+		{
+			 %referenceBody = Simetra
+			 %semiMajorAxis = 3E8
+			%inclination = 1.5
+			%eccentricity = 0.04
+            	%longitudeOfAscendingNode = 12
+			%argumentOfPeriapsis = 24
+            	%meanAnomalyAtEpoch = 0.8
+		}
+		@Properties
+		{
+			%rotationPeriod = 200398
+		}
+	}
+	-Body[SimeSystem] {}
+	@Body[AralcA]
+	{
+		-Orbit {}
+		Orbit
+		{
+			referenceBody = Kcalbeloh
+			inclination = -2
+			eccentricity = 0.02
+			semiMajorAxis = 3e12
+			longitudeOfAscendingNode = 0
+			argumentOfPeriapsis = 0
+			meanAnomalyAtEpoch = 0
+			epoch = 0
+			color = 0.394117725,0.668627524,1,1
+			iconTexture = KcalbelohSystem/PluginData/Decals/star.png
+		}
+	}
+	@Body[AralcB]
+	{
+		@Orbit
+		{
+			%referenceBody = AralcA
+			%semiMajorAxis = 1.636671E10
+		}
+	}
+	@Body[Ahtpan]
+	{
+		@Orbit
+		{
+			%referenceBody = AralcA
+			%semiMajorAxis = 4.179768E10
+		}
+	}
+	@Body[Aciore]
+	{
+		@Orbit
+		{
+			%referenceBody = AralcA
+			%semiMajorAxis = 9E10
+		}
+	}
+	-Body[AralcSystem] {}
+	@Body[Enots]
+	{
+		@Orbit
+		{
+			%semiMajorAxis = 20000000 //18138281 //14510625
+		}
+	}
+	-Body[Enots] {}
+}
