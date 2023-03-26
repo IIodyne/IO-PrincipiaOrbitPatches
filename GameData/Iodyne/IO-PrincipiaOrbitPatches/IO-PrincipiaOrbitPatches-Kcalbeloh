@@ -6,15 +6,15 @@
 		Orbit
 		{
 			referenceBody = Sun
-           	color = 0,0,0,0
+           		color = 0,0,0,0
 			nodeColor = 1,1,1,1
-           	inclination = 30
-           	eccentricity = 0.001
-           	semiMajorAxis = 2.718E15
-           	longitudeOfAscendingNode = 135
-           	argumentOfPeriapsis = 90
-           	meanAnomalyAtEpoch = 0
-           	epoch = 180
+           		inclination = 30
+           		eccentricity = 0.001
+           		semiMajorAxis = 2.718E15
+           		longitudeOfAscendingNode = 135
+           		argumentOfPeriapsis = 90
+           		meanAnomalyAtEpoch = 0
+           		epoch = 180
 			iconTexture = KcalbelohSystem/PluginData/Decals/blackhole.png
 		}
 		@Properties
@@ -141,13 +141,13 @@
 	{
 		@Orbit
 		{
-			 %referenceBody = Noyreg
-			 %eccentricity = 0
-			 %semiMajorAxis = 1.1E7 
+			%referenceBody = Noyreg
+			%eccentricity = 0
+			%semiMajorAxis = 1.1E7 
 			%inclination = 0.4
-            	%longitudeOfAscendingNode = 156
+            		%longitudeOfAscendingNode = 156
 			%argumentOfPeriapsis = 42
-			 %meanAnomalyAtEpoch = 0
+			%meanAnomalyAtEpoch = 0
 		}
 		@Properties
 		{
@@ -176,13 +176,13 @@
 	{
 		@Orbit
 		{
-			 %referenceBody = Simetra
-			 %semiMajorAxis = 3E8
+			%referenceBody = Simetra
+			%semiMajorAxis = 3E8
 			%inclination = 1.5
 			%eccentricity = 0.04
-            	%longitudeOfAscendingNode = 12
+            		%longitudeOfAscendingNode = 12
 			%argumentOfPeriapsis = 24
-            	%meanAnomalyAtEpoch = 0.8
+            		%meanAnomalyAtEpoch = 0.8
 		}
 		@Properties
 		{
@@ -232,12 +232,5 @@
 		}
 	}
 	-Body[AralcSystem] {}
-	@Body[Enots]
-	{
-		@Orbit
-		{
-			%semiMajorAxis = 20000000 //18138281 //14510625
-		}
-	}
 	-Body[Enots] {}
 }
