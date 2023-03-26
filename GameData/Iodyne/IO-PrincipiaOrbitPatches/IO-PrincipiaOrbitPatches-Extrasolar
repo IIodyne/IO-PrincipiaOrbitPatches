@@ -1,0 +1,46 @@
+@Kopernicus:AFTER[Extrasolar]:NEEDS[Principia]
+{
+	@Body[Serex]
+	{
+		@Orbit
+		{
+			@semiMajorAxis *= 1.25
+		}
+	}
+	@Body[Solyth]
+	{
+		@Orbit
+		{
+			%semiMajorAxis = 2458235950 //1958235950
+			%eccentricity = 0.01
+		}
+	}
+	@Body[Fust]
+	{
+		@Orbit
+		{
+			@semiMajorAxis *= 1.25533185
+		}
+	}
+	@Body[Mir]
+	{
+		@Orbit
+		{
+			@semiMajorAxis *= 1.25533185
+		}
+	}
+	@Body[Lomina]
+	{
+		@Orbit
+		{
+			@semiMajorAxis *= 1.25533185
+		}
+		@Rings
+		{
+			@Ring
+			{
+				%angle = 0
+			}
+		}
+	}
+}
