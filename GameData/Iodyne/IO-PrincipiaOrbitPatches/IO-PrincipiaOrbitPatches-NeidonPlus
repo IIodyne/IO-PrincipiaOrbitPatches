@@ -1,0 +1,54 @@
+@Kopernicus:AFTER[NeidonPlus]:NEEDS[Principia]
+{
+	@Body[Nito]
+	{
+		-Orbit {}
+		Orbit
+		{
+           	referenceBody = Neidon
+           	color = 0.59215,0.55294,0.61176,1
+           	inclination = -13.3
+           	eccentricity = 0.47
+           	semiMajorAxis = 200000000
+           	longitudeOfAscendingNode = 204 //24
+           	argumentOfPeriapsis = 0
+           	meanAnomalyAtEpoch = 0
+           	epoch = 0
+        	}
+		@Properties
+		{
+			%tidallyLocked = False
+		}
+	}
+	@Body[Tito]
+	{
+		-Orbit {}
+		Orbit
+		{
+           	referenceBody = Chymere
+           	color = 0.22745,0.18431,0.19216,1
+           	inclination = 180.1
+           	eccentricity = 0.005
+           	semiMajorAxis = 1100000
+           	longitudeOfAscendingNode = 26
+           	argumentOfPeriapsis = 0
+           	meanAnomalyAtEpoch = 0
+           	epoch = 0
+        	}
+		@Properties
+		{
+			%tidallyLocked = False
+		}
+	}
+	@Body[Chymere]
+	{
+		@Orbit
+		{
+			@semiMajorAxis *= 4.5
+		}
+		@Properties
+		{
+			%tidallyLocked = False
+		}
+	}
+}
