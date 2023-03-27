@@ -9,7 +9,7 @@ Currently contains:
   
   **Outer Planets Mod** - Fixes disturbances of inner Sarnus system; increases Ovok's SMA to outer system as well as its eccentricity and inclination, making Ovok's orbit retrograde. Values derived from the work of @EnderDragneel and @ryansennis.
   
-  **Minor Planets Expansion** - ~~Fixes unstable orbit of Kal; increases Kal's SMA and eccentricity to more closely resemble Namaka. Values derived from https://bit.ly/3jeKkab, with the ratio of Ki'Ki's to Hi'iaka's SMA as reference.~~ (< This has now been included in the base install of MPE.) Lint-Mikey's orbit has been changed slightly with the intent to avoid interactions with Jool. While stable (enough), its implementation was not thorough and it is likely entirely optional. Even with the change, Lint-Mikey still interacts with Duna (and possibly Jool).
+  **Minor Planets Expansion** - ~~Fixes unstable orbit of Kal; increases Kal's SMA and eccentricity to more closely resemble Namaka. Values derived from https://bit.ly/3jeKkab, with the ratio of Ki'Ki's to Hi'iaka's SMA as reference.~~ (< This has now been included in the base install of ***MPE***.) Lint-Mikey's orbit has been changed slightly with the intent to avoid interactions with Jool. While stable (enough), its implementation was not thorough and it is likely entirely optional. Even with the change, Lint-Mikey still interacts with Duna (and possibly Jool).
   
   **Neidon Plus** - Nito and Tito have been moved out from their dangerous proximity to Neidon; Nito is now an asteroid-like body akin to Nissee, and Tito is now a retrograde moon of Chymere. Chymere has been moved out as well, past the orbit of Thatmo.
   
