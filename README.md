@@ -1,6 +1,6 @@
 # IO-PrincipiaOrbitPatches
-Contains patches to make various planet pack orbits stable with Principia tested to ~5,000+ years (unless stated otherwise).
-Compatible with IO-AlteredOrbits.
+Contains patches to make various planet pack orbits stable with ***Principia*** tested to ~5,000+ years (unless stated otherwise).
+Compatible with ***IO-AlteredOrbits***.
 
 Currently contains:
 
