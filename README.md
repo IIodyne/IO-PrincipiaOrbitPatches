@@ -11,7 +11,7 @@ Currently contains:
   
   ***Minor Planets Expansion*** - ~~Fixes unstable orbit of Kal; increases Kal's SMA and eccentricity to more closely resemble Namaka. Values derived from https://bit.ly/3jeKkab, with the ratio of Ki'Ki's to Hi'iaka's SMA as reference.~~ (< This has now been included in the base install of ***MPE***.) Lint-Mikey's orbit has been changed slightly with the intent to avoid interactions with Jool. While stable (enough), its implementation was not thorough and it is likely entirely optional. Even with the change, Lint-Mikey still interacts with Duna (and possibly Jool).
   
-  ***Neidon Plus*** - Nito and Tito have been moved out from their dangerous proximity to Neidon; Nito is now an asteroid-like body akin to Nissee, and Tito is now a retrograde moon of Chymere. Chymere has been moved out as well, past the orbit of Thatmo. SMA of Hårgalað decreased a bit (stability of Hårgalað only tested to 1820 years).
+  ***Neidon Plus*** - Nito and Tito have been moved out from their dangerous proximity to Neidon; Nito is now an asteroid-like body akin to Nissee, and Tito is now a retrograde moon of Chymere. Chymere has been moved out as well, past the orbit of Thatmo. SMA of Hårgalað decreased a bit (stability of Hårgalað only tested to 1820 years). Please delete GameData/NeidonPlus/Patches/GregoriaOPMMoverAndShaker.cfg if it exists.
   
   ***Extrasolar*** - SMA of Serex increased by 1.25x to avoid apparent "Schwarzschild radius" effect. SMAs of Solyth, Fust, Mir, and Lomina have been increased by 1.25533185x for general stability. Tested to 3,691 years.
   
